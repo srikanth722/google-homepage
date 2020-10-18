@@ -1,0 +1,58 @@
+#logo-div {
+    margin-top: 25vh;
+}
+
+#logo-img {
+    display: block;
+    margin: auto;
+}
+
+#form-container {
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+}
+
+#search {
+    width: 50vh;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  li {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: Tahoma;
+    font-size: 14px;
+  }
+
+  .right-align {
+      float: right;
+  }
+
+  #sign-in {
+      background-color: #4287f5;
+      color: white;
+  }
+
+  #footer {
+      background-color: lightgray;
+      bottom: 0;
+      left: 0;
+      position: fixed;
+      width: 100%;
+  }
